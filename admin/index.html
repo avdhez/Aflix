@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DarkFlix Admin</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body>
+    <header class="navbar">
+        <div class="logo">DarkFlix Admin</div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Dashboard</a></li>
+                <li><a href="add-movie.html">Add Movie</a></li>
+                <li><a href="#">Manage Movies</a></li>
+                <li><a href="../" target="_blank">View Site</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="admin-container">
+        <h1>Add New Movie</h1>
+        
+        <form class="admin-form" id="movie-form">
+            <div class="form-group">
+                <label for="title">Movie Title</label>
+                <input type="text" id="title" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="year">Release Year</label>
+                <input type="number" id="year" min="1900" max="2030" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="poster">Poster URL</label>
+                <input type="url" id="poster" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="streamUrl">Stream URL</label>
+                <input type="url" id="streamUrl" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="downloadUrl">Download URL</label>
+                <input type="url" id="downloadUrl" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="runtime">Runtime (minutes)</label>
+                <input type="number" id="runtime" min="1" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="rating">Rating (1-10)</label>
+                <input type="number" id="rating" min="1" max="10" step="0.1" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="overview">Overview</label>
+                <textarea id="overview" required></textarea>
+            </div>
+            
+            <div class="form-group">
+                <label for="genres">Genres (comma separated)</label>
+                <input type="text" id="genres" placeholder="Action, Drama, Sci-Fi">
+            </div>
+            
+            <button type="submit" class="submit-btn">Add Movie</button>
+        </form>
+    </main>
+
+    <script src="admin.js"></script>
+</body>
+</html>
