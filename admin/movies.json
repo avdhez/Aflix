@@ -1,0 +1,26 @@
+[
+    {
+        "id": "1",
+        "title": "Inception",
+        "year": "2010",
+        "poster": "https://image.tmdb.org/t/p/w500/9gk7adHYeDvHkCSEqAvQNLV5Uge.jpg",
+        "streamUrl": "https://example.com/stream/inception",
+        "downloadUrl": "https://example.com/download/inception",
+        "runtime": 148,
+        "rating": 8.8,
+        "overview": "A thief who steals corporate secrets through the use of dream-sharing technology is given the inverse task of planting an idea into the mind of a C.E.O.",
+        "genres": ["Action", "Sci-Fi", "Thriller"]
+    },
+    {
+        "id": "2",
+        "title": "The Dark Knight",
+        "year": "2008",
+        "poster": "https://image.tmdb.org/t/p/w500/qJ2tW6WMUDux911r6m7haRef0WH.jpg",
+        "streamUrl": "https://example.com/stream/darkknight",
+        "downloadUrl": "https://example.com/download/darkknight",
+        "runtime": 152,
+        "rating": 9.0,
+        "overview": "When the menace known as the Joker wreaks havoc and chaos on the people of Gotham, Batman must accept one of the greatest psychological and physical tests of his ability to fight injustice.",
+        "genres": ["Action", "Crime", "Drama"]
+    }
+]
